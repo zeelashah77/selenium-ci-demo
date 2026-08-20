@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 
-def test_login():
+def test_saucedemo_login():
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
