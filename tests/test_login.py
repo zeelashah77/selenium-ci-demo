@@ -15,6 +15,8 @@ def test_saucedemo_login():
     driver.find_element("id", "password").send_keys("secret_sauce")
     driver.find_element("id", "login-button").click()
 
+    print("Login test")
+
     assert "inventory" in driver.current_url
 
     driver.quit()
